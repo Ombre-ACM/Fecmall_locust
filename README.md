@@ -23,3 +23,10 @@
 可以看到，在考虑混合场景后，在单接口场景下的30用户稳定下，CPU基本稳定在15%以下，吞吐量在8左右，响应时间都在200毫秒以下
 ![image](https://user-images.githubusercontent.com/64000814/171230360-6fe7a5e5-27e5-4b05-9232-01e537597d74.png)
 说明可以继续缓慢增压，直到看到瓶颈出现
+经过不断尝试，可以发现当用户数在220左右时，系统发生一次中断，具体如图，吞吐量归零后重新攀升，响应时间急速增加后回落
+![image](https://user-images.githubusercontent.com/64000814/171234962-654da073-3482-461b-a23c-e657cd90728e.png)
+![image](https://user-images.githubusercontent.com/64000814/171235028-2308285c-38da-4bff-9294-05c02ccfaf0b.png)
+
+具体请求数据统计如下
+
+![image](https://user-images.githubusercontent.com/64000814/171235116-a1b7fbc7-d340-4789-821a-116c05fe39ad.png)

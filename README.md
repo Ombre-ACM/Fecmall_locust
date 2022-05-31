@@ -35,4 +35,7 @@
 
 ![image](https://user-images.githubusercontent.com/64000814/171235116-a1b7fbc7-d340-4789-821a-116c05fe39ad.png)
 
+![image](https://user-images.githubusercontent.com/64000814/171238988-0f546949-369f-4a44-9586-8cb927ac40ec.png)
+
+
 于此，可以简单定位在假设的复合场景下，个人两核心，4G内存的虚拟linux系统上部署的fecmall电商平台瓶颈最大可支持每秒220用户数请求，瓶颈原因可以看出是硬件资源的不足，性能测试考虑因素太多，此处只是简单分析，并无多少实际意义，可以继续加压，直至访问失败出现

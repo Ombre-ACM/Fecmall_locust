@@ -25,6 +25,7 @@
 ![image](https://user-images.githubusercontent.com/64000814/171230360-6fe7a5e5-27e5-4b05-9232-01e537597d74.png)
 
 说明可以继续缓慢增压，直到看到瓶颈出现
+
 经过不断尝试，可以发现当用户数在220左右时，系统发生一次中断，具体如图，吞吐量归零后重新攀升，响应时间急速增加后回落
 
 ![image](https://user-images.githubusercontent.com/64000814/171234962-654da073-3482-461b-a23c-e657cd90728e.png)

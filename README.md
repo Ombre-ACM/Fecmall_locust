@@ -1,0 +1,3 @@
+# Fecmall_locust
+一个在linux部署fecmall平台+netdata资源监控工具，并通过locust开展的负载压力测试
+代码如下
